@@ -1,0 +1,561 @@
+{ 	
+	identifier: name,
+	label: name,
+	items: [
+	{
+		name: "portraits",
+		url: "./project.html#portraits",
+		description:"Portraits", 
+	    previewImage: "./images/portraits/thumbs/harryclay.jpg",
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/portraits/thumbs/harryclay.jpg",
+				"large":"./images/portraits/harryclay.jpg",
+				"title":"Harry Mizel",
+				"link":"./images/portraits/harryclay.jpg",
+				"containerId":"harryMizelClay",
+				"description_line1":"Clay - 2007",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/portraits/thumbs/harrybronze.jpg",
+				"large":"./images/portraits/harrybronze.jpg",
+				"title":"Harry Mizel",
+				"link":"./images/portraits/harrybronze.jpg",
+				"containerId":"harryMizelBronze",
+				"description_line1":"Bronze - 2007",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/portraits/thumbs/greta.jpg",
+				"large":"./images/portraits/greta.jpg",
+				"title":"Greta",
+				"link":"./images/portraits/greta.jpg",
+				"containerId":"greta",
+				"description_line1":"Clay - 2007",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/portraits/thumbs/bobceazar.jpg",
+				"large":"./images/portraits/bobceazar.jpg",
+				"title":"Bob Ceazar",
+				"link":"./images/portraits/bobceazar.jpg",
+				"containerId":"bobceazar",
+				"description_line1":"Clay - 2007",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/portraits/thumbs/paul.jpg",
+				"large":"./images/portraits/paul.jpg",
+				"title":"Paul",
+				"link":"./images/portraits/paul.jpg",
+				"containerId":"paul",
+				"description_line1":"Clay - 2008",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/portraits/thumbs/charmain.jpg",
+				"large":"./images/portraits/charmain.jpg",
+				"title":"Charmain",
+				"link":"./images/portraits/charmain.jpg",
+				"containerId":"charmain",
+				"description_line1":"Clay sketch - 2007",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/portraits/thumbs/bob.jpg",
+				"large":"./images/portraits/bob.jpg",
+				"title":"Bob",
+				"link":"./images/portraits/bob.jpg",
+				"containerId":"bob",
+				"description_line1":"2007",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/portraits/thumbs/sean.jpg",
+				"large":"./images/portraits/sean.jpg",
+				"title":"Sean McKinney",
+				"link":"./images/portraits/sean.jpg",
+				"containerId":"sean",
+				"description_line1":"Clay - 2004",
+				"description_line2":"10''"	  
+			}]
+			}
+		},{
+		name: "animals",
+		url: "./project.html#animals",
+		description:"Animals", 
+	    previewImage: "./images/animals/thumbs/animals1.jpg", 
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/animals/thumbs/animals1.jpg",
+				"large":"./images/animals/animals1.jpg",
+				"title":"Polar Bear",
+				"link":"./images/animals/animals1.jpg",
+				"containerId":"animals1",
+				"description_line1":"",
+				"description_line2":""	  
+			},
+			{
+				"thumb":"./images/animals/thumbs/animals2.jpg",
+				"large":"./images/animals/animals2.jpg",
+				"title":"Fish",
+				"link":"./images/animals/animals2.jpg",
+				"containerId":"animals2",
+				"description_line1":"",
+				"description_line2":""	  
+			},
+			{
+				"thumb":"./images/animals/thumbs/animals3.jpg",
+				"large":"./images/animals/animals3.jpg",
+				"title":"Wolf's Head",
+				"link":"./images/animals/animals3.jpg",
+				"containerId":"animals3",
+				"description_line1":"",
+				"description_line2":""	  
+			},
+			{
+				"thumb":"./images/animals/thumbs/animals4.jpg",
+				"large":"./images/animals/animals4.jpg",
+				"title":"Calf",
+				"link":"./images/animals/animals4.jpg",
+				"containerId":"animals4",
+				"description_line1":"",
+				"description_line2":""	  
+			},
+			{
+				"thumb":"./images/animals/thumbs/animals5.jpg",
+				"large":"./images/animals/animals5.jpg",
+				"title":"Fox",
+				"link":"./images/animals/animals5.jpg",
+				"containerId":"animals5",
+				"description_line1":"",
+				"description_line2":""	  
+			}]
+			}
+		},{
+		name: "costumes",
+		url: "./project.html#costumes",
+		description:"Costumes",  
+	    previewImage: "./images/costumes/thumbs/babymasks.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/costumes/thumbs/babymasks.jpg",
+				"large":"./images/costumes/babymasks.jpg",
+				"title":"Baby Masks",
+				"link":"./images/costumes/babymasks.jpg",
+				"containerId":"babymasks",
+				"description_line1":"",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/costumes/thumbs/freaky_monkey.jpg",
+				"large":"./images/costumes/freaky_monkey.jpg",
+				"title":"Freaky Monkey",
+				"link":"./images/costumes/freaky_monkey.jpg",
+				"containerId":"freaky_monkey",
+				"description_line1":"",
+				"description_line2":""	  
+			},
+			{
+				"thumb":"./images/costumes/thumbs/penisman.jpg",
+				"large":"./images/costumes/penisman.jpg",
+				"title":"An Evening with Penis",
+				"link":"./images/costumes/penisman.jpg",
+				"containerId":"penisman",
+				"description_line1":"",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/costumes/thumbs/stanley.jpg",
+				"large":"./images/costumes/stanley.jpg",
+				"title":"Stanley",
+				"link":"./images/costumes/stanley.jpg",
+				"containerId":"stanley",
+				"description_line1":"",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/costumes/thumbs/tongue.jpg",
+				"large":"./images/costumes/tongue.jpg",
+				"title":"Tongue Mask",
+				"link":"./images/costumes/tongue.jpg",
+				"containerId":"tongue",
+				"description_line1":"",
+				"description_line2":"Life Size"	  
+			},
+			{
+				"thumb":"./images/costumes/thumbs/stanleySlideShowCover.jpg",
+				"slideShowStore":"./images/costumes/makingOfStanley/makingOfStanley.json",
+				"title":"The Making of Stanley",
+				"link":"./images/costumes/stanleySlideShowCover.jpg",
+				"containerId":"stanleySlideShowCover",
+				"description_line1":"Hover over this image",
+				"description_line2":"to start the slide show"	  
+			}]
+			}
+		},{
+		name: "madhatter",
+		url: "./project.html#madhatter",
+		description:"Madhatter's Teaparty",  
+	    previewImage: "./images/madhatter/thumbs/overview.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/madhatter/thumbs/madhatter1.jpg",
+				"large":"./images/madhatter/madhatter1.jpg",
+				"title":"Madhatter's Teaparty",
+				"link":"./images/madhatter/madhatter1.jpg",
+				"containerId":"madhatter1",
+				"description_line1":"Larger than life puppets standing between 8-9 feet tall when worn",
+				"description_line2":"Mixed Media<br/>The portraits are mostly made from Paper Packing Tape and PVC pipe."	  
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/madhatter2.jpg",
+				"large":"./images/madhatter/madhatter2.jpg",
+				"title":"Madhatter's Teaparty",
+				"link":"./images/madhatter/madhatter2.jpg",
+				"containerId":"madhatter2",
+				"description_line1":"Larger than life puppets standing between 8-9 feet tall when worn",
+				"description_line2":"Mixed Media<br/>The portraits are mostly made from Paper Packing Tape and PVC pipe."	  
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/madhatter3.jpg",
+				"large":"./images/madhatter/madhatter3.jpg",
+				"title":"Madhatter's Teaparty",
+				"link":"./images/madhatter/madhatter3.jpg",
+				"containerId":"madhatter3",
+				"description_line1":"Larger than life puppets standing between 8-9 feet tall when worn",
+				"description_line2":"Mixed Media<br/>The portraits are mostly made from Paper Packing Tape and PVC pipe."	  
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/madhatter4.jpg",
+				"large":"./images/madhatter/madhatter4.jpg",
+				"title":"Madhatter's Teaparty",
+				"link":"./images/madhatter/madhatter4.jpg",
+				"containerId":"madhatter4",
+				"description_line1":"Larger than life puppets standing between 8-9 feet tall when worn",
+				"description_line2":"Mixed Media<br/>The portraits are mostly made from Paper Packing Tape and PVC pipe."	  
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/madhatter5.jpg",
+				"large":"./images/madhatter/madhatter5.jpg",
+				"title":"Madhatter's Teaparty",
+				"link":"./images/madhatter/madhatter5.jpg",
+				"containerId":"madhatter5",
+				"description_line1":"Larger than life puppets standing between 8-9 feet tall when worn",
+				"description_line2":"Mixed Media<br/>The portraits are mostly made from Paper Packing Tape and PVC pipe."	  
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/makingof.jpg",
+				"slideShowStore":"./images/madhatter/makingof/makingof.json",
+				"title":"The Making of The Mad Hatter's Tea Party",
+				"containerId":"makingof",
+				"description_line1":"Hover over this image",
+				"description_line2":"to start the slide show"	  
+			}]
+			}
+		},{
+		name: "raven",
+		url: "./project.html#raven",
+		description:"Raven Art Cart",  
+	        previewImage: "./images/raven/thumbs/raven1.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/raven/thumbs/raven1.jpg",
+				"large":"./images/raven/raven1.jpg",
+				"title":"Raven Art Cart",
+				"link":"./images/raven/raven1.jpg",
+				"containerId":"raven1",
+				"description_line1":"Mixed media - 5' 6\" X 5'x 8'",
+				"description_line2":"Made for Paul Walker for Burning man 2008"	  
+			},
+			{
+				"thumb":"./images/raven/thumbs/raven2.jpg",
+				"large":"./images/raven/raven2.jpg",
+				"title":"Raven Art Cart",
+				"link":"./images/raven/raven2.jpg",
+				"containerId":"raven2",
+				"description_line1":"Mixed media - 5' 6\" X 5'x 8'",
+				"description_line2":"Made for Paul Walker for Burning man 2008"	  
+			},
+			{
+				"thumb":"./images/raven/thumbs/raven3.jpg",
+				"large":"./images/raven/raven3.jpg",
+				"title":"Raven Art Cart",
+				"link":"./images/raven/raven3.jpg",
+				"containerId":"raven3",
+				"description_line1":"Mixed media - 5' 6\" X 5'x 8'",
+				"description_line2":"Made for Paul Walker for Burning man 2008"	  
+			},
+			{
+				"thumb":"./images/raven/thumbs/raven4.jpg",
+				"large":"./images/raven/raven4.jpg",
+				"title":"Raven Art Cart",
+				"link":"./images/raven/raven4.jpg",
+				"containerId":"raven4",
+				"description_line1":"Mixed media - 5' 6\" X 5'x 8'",
+				"description_line2":"Made for Paul Walker for Burning man 2008"	  
+			},
+                        {
+				"thumb":"./images/raven/thumbs/raven5.jpg",
+				"large":"./images/raven/raven5.jpg",
+				"title":"Raven Art Cart",
+				"link":"./images/raven/raven5.jpg",
+				"containerId":"raven5",
+				"description_line1":"Mixed media - 5' 6\" X 5'x 8'",
+				"description_line2":"Made for Paul Walker for Burning man 2008"
+			},{
+				"thumb":"./images/raven/thumbs/ravenSlideShow.jpg",
+				"slideShowStore":"./images/raven/ravenSlide/ravenslideshow.json",
+				"title":"The Making of the Raven",
+				"link":"./images/raven/raven4.jpg",
+				"containerId":"ravenSlideShow",
+				"description_line1":"Hover over this image",
+				"description_line2":"to start the slide show"
+			}
+                    ]
+			}
+		},{
+		name: "caterpillar",
+		url: "./project.html#caterpillar",
+		description:"Advice from a Caterpillar",  
+	    previewImage: "./images/caterpillar/thumbs/caterpillar1.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/caterpillar/thumbs/caterpillar1.jpg",
+				"large":"./images/caterpillar/caterpillar1.jpg",
+				"title":"Advice from a Caterpillar",
+				"link":"./images/caterpillar/caterpillar1.jpg",
+				"containerId":"caterpillar1",
+				"description_line1":"Grant from Burningman 2005<br/>Mixed Media Installation",
+				"description_line2":"Installation included Audio, fiber optics and black light highlights. Caterpillar stands 10' x 5'"
+			},
+			{
+				"thumb":"./images/caterpillar/thumbs/caterpillar2.jpg",
+				"large":"./images/caterpillar/caterpillar2.jpg",
+				"title":"Advice from a Caterpillar",
+				"link":"./images/caterpillar/caterpillar2.jpg",
+				"containerId":"caterpillar2",
+				"description_line1":"Grant from Burningman 2005<br/>Mixed Media Installation",
+				"description_line2":"Installation included Audio, fiber optics and black light highlights. Caterpillar stands 10' x 5'"
+			},
+			{
+				"thumb":"./images/caterpillar/thumbs/caterpillar3.jpg",
+				"large":"./images/caterpillar/caterpillar3.jpg",
+				"title":"Advice from a Caterpillar",
+				"link":"./images/caterpillar/caterpillar3.jpg",
+				"containerId":"caterpillar3",
+				"description_line1":"Grant from Burningman 2005<br/>Mixed Media Installation",
+				"description_line2":"Installation included Audio, fiber optics and black light highlights. Caterpillar stands 10' x 5'"
+			},
+			{
+				"thumb":"./images/caterpillar/thumbs/caterpillar4.jpg",
+				"large":"./images/caterpillar/caterpillar4.jpg",
+				"title":"Advice from a Caterpillar",
+				"link":"./images/caterpillar/caterpillar4.jpg",
+				"containerId":"caterpillar4",
+				"description_line1":"Grant from Burningman 2005<br/>Mixed Media Installation",
+				"description_line2":"Installation included Audio, fiber optics and black light highlights. Caterpillar stands 10' x 5'"
+			},
+			{
+				"thumb":"./images/caterpillar/thumbs/caterpillar5.jpg",
+				"large":"./images/caterpillar/caterpillar5.jpg",
+				"title":"Advice from a Caterpillar",
+				"link":"./images/caterpillar/caterpillar5.jpg",
+				"containerId":"caterpillar5",
+				"description_line1":"Grant from Burningman 2005<br/>Mixed Media Installation",
+				"description_line2":"Installation included Audio, fiber optics and black light highlights. Caterpillar stands 10' x 5'"
+			},
+			{
+				"thumb":"./images/caterpillar/thumbs/caterpillarslideshow.jpg",
+				"slideShowStore":"./images/caterpillar/caterpillarSlideShow/caterpillarSlideShow.json",
+				"title":"The Making of Caterpillar",
+				"link":"./images/caterpillar/caterpillarslideshow.jpg",
+				"containerId":"caterpillarSlideShowCover",
+				"description_line1":"Hover over this image",
+				"description_line2":"to start the slide show"	  
+			}]
+			}
+		},{
+		name: "hunter",
+		url: "./project.html#hunter",
+		description:"Hunter Thompson",  
+	    previewImage: "./images/hunter/thumbs/hunter1.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/hunter/thumbs/hunter1.jpg",
+				"large":"./images/hunter/hunter1.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter1.jpg",
+				"containerId":"hunter1",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>On loan for 2009 show at RMCAD. Courtesy of Matthew Mosley"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter2.jpg",
+				"large":"./images/hunter/hunter2.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter2.jpg",
+				"containerId":"hunter2",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>On loan for 2009 show at RMCAD. Courtesy of Matthew Mosley"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter3.jpg",
+				"large":"./images/hunter/hunter3.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter3.jpg",
+				"containerId":"hunter3",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>On loan for 2009 show at RMCAD. Courtesy of Matthew Mosley"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter4.jpg",
+				"large":"./images/hunter/hunter4.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter4.jpg",
+				"containerId":"hunter4",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>On loan for 2009 show at RMCAD. Courtesy of Matthew Mosley"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter5.jpg",
+				"large":"./images/hunter/hunter5.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter5.jpg",
+				"containerId":"hunter5",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>On loan for 2009 show at RMCAD. Courtesy of Matthew Mosley"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter6.jpg",
+				"large":"./images/hunter/hunter6.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter6.jpg",
+				"containerId":"hunter6",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>On loan for 2009 show at RMCAD. Courtesy of Matthew Mosley"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter7.jpg",
+				"large":"./images/hunter/hunter7.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter7.jpg",
+				"containerId":"hunter7",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>On loan for 2009 show at RMCAD. Courtesy of Matthew Mosley"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter8.jpg",
+				"large":"./images/hunter/hunter8.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter8.jpg",
+				"containerId":"hunter8",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>On loan for 2009 show at RMCAD. Courtesy of Matthew Mosley"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter9.jpg",
+				"large":"./images/hunter/hunter9.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter9.jpg",
+				"containerId":"hunter9",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter10.jpg",
+				"large":"./images/hunter/hunter10.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter10.jpg",
+				"containerId":"hunter10",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection<br/>Sculpture show with <a href='http://www.talkleft.com/story/2006/04/25/292/85574'>Lisl Auman</a>"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter11.jpg",
+				"large":"./images/hunter/hunter11.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter11.jpg",
+				"containerId":"hunter11",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection"	  
+			},{
+				"thumb":"./images/hunter/thumbs/hunter12.jpg",
+				"large":"./images/hunter/hunter12.jpg",
+				"title":"Hunter Thompson",
+				"link":"./images/hunter/hunter12.jpg",
+				"containerId":"hunter12",
+				"description_line1":"Mixed Media - Life size -2007",
+				"description_line2":"Hunter Thompson was a commissioned piece for a private collection"	  
+			}]
+			}
+			},{
+		name: "packages",
+		url: "./project.html#packages",
+		description:"\"Packages\" - Work in Progress",  
+	    previewImage: "./images/packages/thumbs/packages1.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/packages/thumbs/packages1.jpg",
+				"large":"./images/packages/packages1.jpg",
+				"title":"\"Packages\"",
+				"link":"./images/packages/packages1.jpg",
+				"containerId":"packages1",
+				"description_line1":"Work In Progress",
+				"description_line2":"Brown Paper<br/>Lifesize"	  
+			},
+			{
+				"thumb":"./images/packages/thumbs/packages2.jpg",
+				"large":"./images/packages/packages2.jpg",
+				"title":"\"Packages\"",
+				"link":"./images/packages/packages2.jpg",
+				"containerId":"packages2",
+				"description_line1":"Work In Progress",
+				"description_line2":"Brown Paper<br/>Lifesize"	  
+			},
+			{
+				"thumb":"./images/packages/thumbs/packages3.jpg",
+				"large":"./images/packages/packages3.jpg",
+				"title":"\"Packages\"",
+				"link":"./images/packages/packages3.jpg",
+				"containerId":"packages3",
+				"description_line1":"Work In Progress",
+				"description_line2":"Brown Paper<br/>Lifesize"	  
+			},
+			{
+				"thumb":"./images/packages/thumbs/packages4.jpg",
+				"large":"./images/packages/packages4.jpg",
+				"title":"\"Packages\"",
+				"link":"./images/packages/packages4.jpg",
+				"containerId":"packages4",
+				"description_line1":"Work In Progress",
+				"description_line2":"Brown Paper<br/>Lifesize"	  
+			},
+			{
+				"thumb":"./images/packages/thumbs/packages5.jpg",
+				"large":"./images/packages/packages5.jpg",
+				"title":"\"Packages\"",
+				"link":"./images/packages/packages5.jpg",
+				"containerId":"packages5",
+				"description_line1":"Work In Progress",
+				"description_line2":"Brown Paper<br/>Lifesize"	  
+			}]
+			
+		}
+		}
+		]
+}

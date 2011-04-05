@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Emma Hardy</title>
+<meta name="description" content="Emma Hardy is an artist living in Jamestown by Boulder, Colorado. She is a sculptorer working with paper. She accepts commissions."/>
+
+
+<link href="./css/main.css" rel="stylesheet" type="text/css" />
+
+<!-- link href="./dojotoolkit/dojo/resources/dojo.css" rel="stylesheet"
+	type="text/css" />
+<link href="./dojotoolkit/dijit/themes/nihilo/nihilo.css"
+	rel="stylesheet" type="text/css" /-->
+
+	<link href="http://ajax.googleapis.com/ajax/libs/dojo/1.3.2/dojo/resources/dojo.css" rel="stylesheet" type="text/css"/>
+    <link href="http://ajax.googleapis.com/ajax/libs/dojo/1.3.2/dijit/themes/nihilo/nihilo.css" rel="stylesheet" type="text/css"/>
+
+
+    <!-- load the dojo toolkit base -->
+
+    <script type="text/javascript">
+        var djConfig = {
+            baseUrl: 'http://emmahardy.net/',
+            isDebug:false,
+            parseOnLoad:true};
+    </script>
+    <!-- script type="text/javascript" src="./dojotoolkit/dojo/dojo.js.uncompressed.js"></script-->
+    <script src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load("dojo", "1.3.2");
+    </script>
+
+<script language="JavaScript" type="text/javascript">
+        //dojo.registerModulePath('emmahardy', '../../javascript');
+		dojo.registerModulePath('emmahardy', 'javascript');
+        dojo.require("dijit.layout.StackContainer");
+        dojo.require("dijit.layout.ContentPane");
+        dojo.require("dojo.parser");
+
+		function switchContent(id){
+			dojo.query(".selected").removeClass("selected");
+			var child = dojo.byId(id);
+
+			dojo.addClass(id+'link','selected');
+			var stack = dijit.byId('mainContentPane');
+			stack.selectChild(dijit.byId(id));
+			dojo.marginBox(child,{h:child.scrollHeight});
+			dojo.marginBox('main',{h:child.scrollHeight});
+	    }
+
+        dojo.addOnLoad(function() {
+
+
+
+        });
+
+
+    </script>
+
+
+
+</head>
+<body>
+<div id="main"><!-- Header -->
+
+<div id="header">
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="project.html">Projects</a></li>
+	<li><a href="info.html">Projects</a></li>
+        <li id="selected">Commissions</li>
+	<!--li><a href="http://www.emmahardy.net">Contact</a></li-->
+</ul>
+<span id="emma">EMMA HARDY</span></div>
+
+<!-- Main content area -->
+
+<div id="content">
+<div id="leftNav">
+<ul>
+	<li id="commissions" class="selected" onclick="switchContent('commissions');">Commissions</li>
+</ul>
+
+</div>
+
+<div dojoType="dijit.layout.StackContainer" class="infoContent"
+	id="mainContentPane">
+<div dojoType="dijit.layout.ContentPane" id="commissions" title="">
+<p>All commissions welcome. Much of my work has been commission based. From 
+    portraits, to large scale puppets. All projects will be considered.
+    Commissions included: <a href="./project.html#proj=animals&page=1">Polar
+    Bear</a>, <a href="./project.html#proj=hunter&page=1">Hunter Thompson</a>,
+    Juggler, <a href="./project.html#proj=portraits&page=1">Larry Misel</a>,
+    <a href="./project.html#proj=animalss&page=2">Calf Head</a>,
+    <a href="./project.html#proj=costumes&page=2">Subway project</a>, An evening with Penis costume.
+<br/>Please call Emma for quotes 303 447 8222 or email @ emma@jimtown.org</p>
+</div>
+</div>
+</div>
+
+
+<!-- Footer -->
+
+<div id="footer" style="height: 50px;">Copyright &copy; 2009 |
+Site Design by Emma Hardy and Johannes Tuchscherer</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-571375-6");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>
+
+
+

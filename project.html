@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>Emma Hardy</title>
+        <meta name="description" content="Emma Hardy is an artist living in Jamestown by Boulder, Colorado. She is a sculptorer working with paper. She accepts commissions."/>
+
+
+        <link href="./css/main.css" rel="stylesheet" type="text/css"/>
+
+        <link href="./dojotoolkit/dojo/resources/dojo.css" rel="stylesheet" type="text/css"/>
+        <link href="./dojotoolkit/dijit/themes/nihilo/nihilo.css" rel="stylesheet" type="text/css"/>
+
+        <link href="./dojotoolkit/dojox/layout/resources/ScrollPane.css"
+              type="text/css" rel="stylesheet"/>
+        <link href="./dojotoolkit/dojox/image/resources/image.css"
+              type="text/css" rel="stylesheet"/>
+
+        <!-- load the dojo toolkit base -->
+
+        <script type="text/javascript">
+            var djConfig = {
+                isDebug:false};
+        </script>
+        <script type="text/javascript" src="./dojotoolkit/dojo/dojo.js"></script>
+
+        <script type="text/javascript" src="./dojotoolkit/dijit/dijit.js"></script>
+
+        <script language="JavaScript" type="text/javascript">
+            dojo.registerModulePath('emmahardy', '../../javascript');
+            dojo.require("emmahardy.ProjectOverview");
+            dojo.require("emmahardy.ProjectView");
+            dojo.require("dijit.layout.StackContainer");
+            dojo.require("dijit.layout.ContentPane");
+            dojo.require("emmahardy.layout.SlideShow");
+            dojo.require("dojo.data.ItemFileReadStore");
+            dojo.require("dojo.parser");
+            dojo.require("dojo.back");
+            dojo.require("dojo.hash");
+            ApplicationState = function(stateData, bookmarkValue) {
+                this.stateData = stateData;
+                this.changeUrl = bookmarkValue + '&r=' + (new Date().getTime()) || false;
+            }
+
+            dojo.extend(ApplicationState, {
+                back: function() {
+                    var page = this.stateData.page || 1;
+                    if(this.stateData && this.stateData.proj && this.stateData.proj == 'madhatter'){
+                        if(dijit.byId('projectPicker')) {
+                            dijit.byId('projectPicker').destroyRecursive();
+                        } else {
+                            dijit.byId('mainContentPane').destroyRecursive();
+                            dojo.query('#leftNav').orphan();
+                        }
+                        var projectOverview = new emmahardy.ProjectOverview();
+                        projectOverview.createProjectOverview("./javascript/madhatter_overview.json",true);
+                    } else if(this.stateData && this.stateData != 'overview'){
+                        if(dijit.byId('projectPicker')) {
+                            dijit.byId('projectPicker').destroyRecursive();
+                        } else {
+                            dijit.byId('mainContentPane').destroyRecursive();
+                            dojo.query('#leftNav').orphan();
+                        }
+                        var projectView = new emmahardy.ProjectView(this.stateData.isMadhatter ? "./javascript/madhatter_overview.json" : "./javascript/images.json",this.stateData.proj,page,this.stateData.isMadhatter);
+                        projectView.createProjectView();
+                    } else {
+                        if(dijit.byId('projectPicker')) {
+                            dijit.byId('projectPicker').destroyRecursive();
+                        } else {
+                            dijit.byId('mainContentPane').destroyRecursive();
+                            dojo.query('#leftNav').orphan();
+                        }
+                        var projectOverview = new emmahardy.ProjectOverview();
+                        projectOverview.createProjectOverview("./javascript/images.json",false);
+                    }
+	            	
+					
+                },
+                forward: function() {
+                    var page = this.stateData.page || 1;
+                    if(this.stateData && this.stateData.proj && this.stateData.proj === 'madhatter'){
+                        if(dijit.byId('projectPicker')) {
+                            dijit.byId('projectPicker').destroyRecursive();
+                        } else {
+                            dijit.byId('mainContentPane').destroyRecursive();
+                            dojo.query('#leftNav').orphan();
+                        }
+                        var projectOverview = new emmahardy.ProjectOverview();
+                        projectOverview.createProjectOverview("./javascript/madhatter_overview.json",true);
+                    } else if(this.stateData && this.stateData != 'overview'){
+                        if(dijit.byId('projectPicker')) {
+                            dijit.byId('projectPicker').destroyRecursive();
+                        } else {
+                            dijit.byId('mainContentPane').destroyRecursive();
+                            dojo.query('#leftNav').orphan();
+                        }
+                        var projectView = new emmahardy.ProjectView(this.stateData.isMadhatter ? "./javascript/madhatter_overview.json" : "./javascript/images.json",this.stateData.proj,page,this.stateData.isMadhatter);
+                        projectView.createProjectView();
+                    } else {
+                        if(dijit.byId('projectPicker')) {
+                            dijit.byId('projectPicker').destroyRecursive();
+                        } else {
+                            dijit.byId('mainContentPane').destroyRecursive();
+                            dojo.query('#leftNav').orphan();
+                        }
+                        var projectOverview = new emmahardy.ProjectOverview();
+                        projectOverview.createProjectOverview("./javascript/images.json",false);
+                    }
+	            	
+					
+                }
+            });
+
+
+            dojo.addOnLoad(function() {
+
+                var hashObject = dojo.queryToObject(dojo.hash());
+                if(dojo.hash().indexOf('=') == -1) {
+                    hashObject.proj = dojo.hash();
+                    hashObject.page = 1;
+                }
+                if(hashObject.proj != 'overview' && hashObject.page == null ) {
+                    hashObject.page = 1;
+                }
+            	
+                var hash = hashObject.proj || hashObject;
+                if (hash && hash.length > 0  && hash.substring(0,10) === 'madhatter/'){
+                    hashObject.isMadhatter = true;
+                    var projectView = new emmahardy.ProjectView("./javascript/madhatter_overview.json",hash, hashObject.page, true);
+                    projectView.createProjectView();
+                    var appState = new ApplicationState(hashObject,dojo.objectToQuery(hashObject));
+                    dojo.back.setInitialState(appState);
+                } else if (hash && hash.length > 0  && hash === 'madhatter'){
+                    var projectOverview = new emmahardy.ProjectOverview();
+                    projectOverview.createProjectOverview("./javascript/madhatter_overview.json",true);
+                    var appState = new ApplicationState({proj: 'madhatter'}, 'proj=madhatter');
+                    dojo.back.setInitialState(appState);
+                } else if (hash && hash.length > 0  && hash != 'overview') {
+                    var projectView = new emmahardy.ProjectView("./javascript/images.json",hash, hashObject.page);
+                    projectView.createProjectView();
+                    var appState = new ApplicationState(hashObject,dojo.objectToQuery(hashObject));
+                    dojo.back.setInitialState(appState);
+                } else {
+                    var projectOverview = new emmahardy.ProjectOverview();
+                    projectOverview.createProjectOverview("./javascript/images.json",false);
+                    var appState = new ApplicationState('overview', 'overview');
+                    dojo.back.setInitialState(appState);
+                }
+           
+                dojo.connect(dojo.byId('selected'),'onclick',function(mouse_event){
+                    if(dijit.byId('projectPicker')) {
+                        dijit.byId('projectPicker').destroyRecursive();
+                    } else if(dijit.byId('mainContentPane')){
+                        dijit.byId('mainContentPane').destroyRecursive();
+                        dojo.query('#leftNav').orphan();
+                    }
+                    var appState = new ApplicationState('overview','overview');
+                    dojo.back.addToHistory(appState);
+                    var projectOverview = new emmahardy.ProjectOverview();
+                    projectOverview.createProjectOverview("./javascript/images.json",false);
+                });
+            });
+
+
+        </script>
+
+
+
+    </head>
+    <body class="nihilo">
+        <script type="text/javascript">
+            dojo.back.init();
+        </script>
+        <div id="main">
+
+            <!-- Header -->
+
+            <div id="header">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li id="selected">Projects</li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="commissions.html">Commissions</a></li>
+	        </ul>
+                <span id="emma">EMMA HARDY</span>
+            </div>
+
+            <!-- Main content area -->
+
+            <div id="content">
+
+            </div>
+
+
+            <!-- Footer -->
+
+            <div id="footer">
+                Copyright &copy; 2010 | Site Design by Emma Hardy and Johannes Tuchscherer
+            </div>
+        </div>
+
+        <!-- script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-571375-6");
+        pageTracker._trackPageview();
+        } catch(err) {}</script-->
+    </body>
+
+</html>

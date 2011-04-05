@@ -1,0 +1,520 @@
+{ 	
+	identifier: name,
+	label: name,
+	items: [
+	{
+		name: "madhatter/boulder",
+		url: "./project.html#madhatter/boulder",
+		description:"Madhatter's Teaparty in Boulder", 
+	        previewImage: "./images/madhatter/thumbs/boulder.jpg",
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/madhatter/thumbs/boulder/boulder1.jpg",
+				"large":"./images/madhatter/boulder/boulder1.jpg",
+				"title":"Ashcroft",
+				"link":"./images/madhatter/boulder/boulder1.jpg",
+				"containerId":"boulder1",
+				"description_line1":"",
+				"description_line2":""	  
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/boulder/boulder2.jpg",
+				"large":"./images/madhatter/boulder/boulder2.jpg",
+				"title":"Rummy in Action",
+				"link":"./images/madhatter/boulder/boulder2.jpg",
+				"containerId":"boulder2",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/boulder/boulder3.jpg",
+				"large":"./images/madhatter/boulder/boulder3.jpg",
+				"title":"Talkin'",
+				"link":"./images/madhatter/boulder/boulder3.jpg",
+				"containerId":"boulder3",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/boulder/boulder4.jpg",
+				"large":"./images/madhatter/boulder/boulder4.jpg",
+				"title":"Ashrumchen",
+				"link":"./images/madhatter/boulder/boulder4.jpg",
+				"containerId":"boulder4",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/boulder/boulder5.jpg",
+				"large":"./images/madhatter/boulder/boulder5.jpg",
+				"title":"The Rabbit",
+				"link":"./images/madhatter/boulder/boulder5.jpg",
+				"containerId":"boulder5",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/boulder/boulder6.jpg",
+				"large":"./images/madhatter/boulder/boulder6.jpg",
+				"title":"boulder6",
+				"link":"./images/madhatter/boulder/boulder6.jpg",
+				"containerId":"boulder6",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/boulder/boulder7.jpg",
+				"large":"./images/madhatter/boulder/boulder7.jpg",
+				"title":"boulder7",
+				"link":"./images/madhatter/boulder/boulder7.jpg",
+				"containerId":"boulder7",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/boulder/boulder8.jpg",
+				"large":"./images/madhatter/boulder/boulder8.jpg",
+				"title":"boulder8",
+				"link":"./images/madhatter/boulder/boulder8.jpg",
+				"containerId":"boulder8",
+				"description_line1":"",
+				"description_line2":""
+			}]
+			}
+		},{
+		name: "madhatter/burningman",
+		url: "./project.html#madhatter/burningman",
+		description:"Madhatter's Teaparty at Burning Man", 
+	        previewImage: "./images/madhatter/thumbs/burningman.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/madhatter/thumbs/burningman/burningman1.jpg",
+				"large":"./images/madhatter/burningman/burningman1.jpg",
+				"title":"Cheney",
+				"link":"./images/madhatter/burningman/burningman1.jpg",
+				"containerId":"burningman1",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/burningman/burningman2.jpg",
+				"large":"./images/madhatter/burningman/burningman2.jpg",
+				"title":"The Group",
+				"link":"./images/madhatter/burningman/burningman2.jpg",
+				"containerId":"burningman2",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/burningman/burningman3.jpg",
+				"large":"./images/madhatter/burningman/burningman3.jpg",
+				"title":"Emma with George and Dick",
+				"link":"./images/madhatter/burningman/burningman3.jpg",
+				"containerId":"burningman3",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/burningman/burningman4.jpg",
+				"large":"./images/madhatter/burningman/burningman4.jpg",
+				"title":"In the corwd",
+				"link":"./images/madhatter/burningman/burningman4.jpg",
+				"containerId":"burningman4",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/burningman/burningman5.jpg",
+				"large":"./images/madhatter/burningman/burningman5.jpg",
+				"title":"At Night",
+				"link":"./images/madhatter/burningman/burningman5.jpg",
+				"containerId":"burningman5",
+				"description_line1":"",
+				"description_line2":""
+			}]
+			}
+		},{
+		name: "madhatter/fourthofjuly",
+		url: "./project.html#madhatter/fourthofjuly",
+		description:"Madhatter's Teaparty at the 4th of July Parade",  
+	        previewImage: "./images/madhatter/thumbs/fourthofjuly.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/madhatter/thumbs/fourthofjuly/fourthofjuly1.jpg",
+				"large":"./images/madhatter/fourthofjuly/fourthofjuly1.jpg",
+				"title":"The Group",
+				"link":"./images/madhatter/fourthofjuly/fourthofjuly1.jpg",
+				"containerId":"fourthofjuly1",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/fourthofjuly/fourthofjuly2.jpg",
+				"large":"./images/madhatter/fourthofjuly/fourthofjuly2.jpg",
+				"title":"The Group",
+				"link":"./images/madhatter/fourthofjuly/fourthofjuly2.jpg",
+				"containerId":"fourthofjuly2",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/fourthofjuly/fourthofjuly3.jpg",
+				"large":"./images/madhatter/fourthofjuly/fourthofjuly3.jpg",
+				"title":"The Group",
+				"link":"./images/madhatter/fourthofjuly/fourthofjuly3.jpg",
+				"containerId":"fourthofjuly3",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/fourthofjuly/fourthofjuly4.jpg",
+				"large":"./images/madhatter/fourthofjuly/fourthofjuly4.jpg",
+				"title":"The Group",
+				"link":"./images/madhatter/fourthofjuly/fourthofjuly4.jpg",
+				"containerId":"fourthofjuly4",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/fourthofjuly/fourthofjuly5.jpg",
+				"large":"./images/madhatter/fourthofjuly/fourthofjuly5.jpg",
+				"title":"Donald",
+				"link":"./images/madhatter/fourthofjuly/fourthofjuly5.jpg",
+				"containerId":"fourthofjuly5",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/fourthofjuly/fourthofjuly6.jpg",
+				"large":"./images/madhatter/fourthofjuly/fourthofjuly6.jpg",
+				"title":"Dick",
+				"link":"./images/madhatter/fourthofjuly/fourthofjuly6.jpg",
+				"containerId":"fourthofjuly6",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/fourthofjuly/fourthofjuly7.jpg",
+				"large":"./images/madhatter/fourthofjuly/fourthofjuly7.jpg",
+				"title":"The Group",
+				"link":"./images/madhatter/fourthofjuly/fourthofjuly7.jpg",
+				"containerId":"fourthofjuly7",
+				"description_line1":"",
+				"description_line2":""
+			}]
+			}
+		},{
+		name: "madhatter/group",
+		url: "./project.html#madhatter/group",
+		description:"At the Museum for Contemporary Art, Denver",
+	        previewImage: "./images/madhatter/thumbs/group.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/madhatter/thumbs/group/group1.jpg",
+				"large":"./images/madhatter/group/group1.jpg",
+				"title":"In Denver",
+				"link":"./images/madhatter/group/group1.jpg",
+				"containerId":"group1",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/group/group2.jpg",
+				"large":"./images/madhatter/group/group2.jpg",
+				"title":"In the museum",
+				"link":"./images/madhatter/group/group2.jpg",
+				"containerId":"group2",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/group/group3.jpg",
+				"large":"./images/madhatter/group/group3.jpg",
+				"title":"In the museum",
+				"link":"./images/madhatter/group/group3.jpg",
+				"containerId":"group3",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/group/group4.jpg",
+				"large":"./images/madhatter/group/group4.jpg",
+				"title":"In the museum",
+				"link":"./images/madhatter/group/group4.jpg",
+				"containerId":"group4",
+				"description_line1":"",
+				"description_line2":""
+			}]
+			}
+		},{
+		name: "madhatter/longmont",
+		url: "./project.html#madhatter/longmont",
+		description:"Madhatter's Teaparty in Longmont",  
+	        previewImage: "./images/madhatter/thumbs/longmont/longmont6.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/madhatter/thumbs/longmont/longmont6.jpg",
+				"large":"./images/madhatter/longmont/longmont6.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/longmont/longmont6.jpg",
+				"containerId":"longmont6",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/longmont/longmont2.jpg",
+				"large":"./images/madhatter/longmont/longmont2.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/longmont/longmont2.jpg",
+				"containerId":"longmont2",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/longmont/longmont3.jpg",
+				"large":"./images/madhatter/longmont/longmont3.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/longmont/longmont3.jpg",
+				"containerId":"longmont3",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/longmont/longmont4.jpg",
+				"large":"./images/madhatter/longmont/longmont4.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/longmont/longmont4.jpg",
+				"containerId":"longmont4",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/longmont/longmont5.jpg",
+				"large":"./images/madhatter/longmont/longmont5.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/longmont/longmont5.jpg",
+				"containerId":"longmont5",
+				"description_line1":"",
+				"description_line2":""
+			}
+                        ]
+			}
+		},{
+		name: "madhatter/makingof",
+		url: "./project.html#madhatter/makingof",
+		description:"The Making of the Madhatter's Teaparty",  
+	        previewImage: "./images/madhatter/thumbs/makingof.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/madhatter/thumbs/makingof.jpg",
+				"slideShowStore":"./images/madhatter/makingof/makingof.json",
+				"title":"The Making of The Madhatter's Teaparty",
+				"link":"./images/madhatter/makingof/makingof1.jpg",
+				"containerId":"madhatterSlideShowCover",
+				"description_line1":"Hover over this image",
+				"description_line2":"to start the slide show"
+			}]
+			}
+			},{
+		name: "madhatter/rmcad2004",
+		url: "./project.html#madhatter/rmcad2004",
+		description:"Madhatter's Teaparty at the Rocky Mountain College of Art, 2004",  
+	        previewImage: "./images/madhatter/thumbs/rmcad2004.jpg",
+	 
+		images: {
+			items: [
+
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2004/rmcad20041.jpg",
+				"large":"./images/madhatter/rmcad2004/rmcad20041.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2004/rmcad20041.jpg",
+				"containerId":"rmcad20041",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2004/rmcad20042.jpg",
+				"large":"./images/madhatter/rmcad2004/rmcad20042.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2004/rmcad20042.jpg",
+				"containerId":"rmcad20042",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2004/rmcad20043.jpg",
+				"large":"./images/madhatter/rmcad2004/rmcad20043.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2004/rmcad20043.jpg",
+				"containerId":"rmcad20043",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2004/rmcad20044.jpg",
+				"large":"./images/madhatter/rmcad2004/rmcad20044.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2004/rmcad20044.jpg",
+				"containerId":"rmcad20044",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2004/rmcad20045.jpg",
+				"large":"./images/madhatter/rmcad2004/rmcad20045.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2004/rmcad20045.jpg",
+				"containerId":"rmcad20045",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2004/rmcad20046.jpg",
+				"large":"./images/madhatter/rmcad2004/rmcad20046.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2004/rmcad20046.jpg",
+				"containerId":"rmcad20046",
+				"description_line1":"",
+				"description_line2":""
+			}]
+			
+		}
+		},{
+		name: "madhatter/rmcad2009",
+		url: "./project.html#madhatter/rmcad2009",
+		description:"Madhatter's Teaparty at the Rocky Mountain College of Art, 2009",  
+	    previewImage: "./images/madhatter/thumbs/rmcad2009.jpg",
+	 
+		images: {
+			items: [
+			
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20091.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20091.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20091.jpg",
+				"containerId":"rmcad20091",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20092.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20092.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20092.jpg",
+				"containerId":"rmcad20092",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20093.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20093.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20093.jpg",
+				"containerId":"rmcad20093",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20094.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20094.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20094.jpg",
+				"containerId":"rmcad20094",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20095.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20095.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20095.jpg",
+				"containerId":"rmcad20095",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20096.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20096.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20096.jpg",
+				"containerId":"rmcad20096",
+				"description_line1":"",
+				"description_line2":""
+			},{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20097.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20097.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20097.jpg",
+				"containerId":"rmcad20097",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20098.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20098.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20098.jpg",
+				"containerId":"rmcad20098",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad20099.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad20099.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad20099.jpg",
+				"containerId":"rmcad20099",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad200910.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad200910.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad200910.jpg",
+				"containerId":"rmcad200910",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad200911.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad200911.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad200911.jpg",
+				"containerId":"rmcad200911",
+				"description_line1":"",
+				"description_line2":""
+			},
+			{
+				"thumb":"./images/madhatter/thumbs/rmcad2009/rmcad200912.jpg",
+				"large":"./images/madhatter/rmcad2009/rmcad200912.jpg",
+				"title":"Click image to enlarge",
+				"link":"./images/madhatter/rmcad2009/rmcad200912.jpg",
+				"containerId":"rmcad200912",
+				"description_line1":"",
+				"description_line2":""
+			}]
+			
+		}
+		}
+		]
+}
